@@ -1,0 +1,225 @@
+.body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    //background: url('../../blurr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: teal;
+
+}
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  //background: url('../../blurr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.border {
+  
+  border: 30px solid #f1f1f1;
+  width: 30%;
+    height: 40%;
+}
+.base-container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: '#00e6e6';
+    opacity: 1.0;
+    border: black;
+    margin-top: 6em;
+    margin-left: 0.1em;
+   
+  
+    .header {
+      font-size: 24px;
+      font-family: "Open Sans", sans-serif;
+     
+    }
+  
+    .content {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      border:'2px solid #000000';
+  
+      .image {
+        width: 15em;
+        position: relative;
+        margin-right: 2em;
+        
+        img {
+          width: 100%;
+          height: 100%;
+        } 
+      }
+      
+      
+  
+      .form {
+        margin-top: 0.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        .form-group {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          width: fit-content;
+          label {
+            font-size: 15px;
+            color: rgb(255, 255, 255)
+          }
+          input {
+              
+            margin-top: 4px;
+            min-width: 18em;
+            height: 25px;
+            padding: 0px 10px;
+            font-size: 12px;
+            font-family: "Open Sans", sans-serif;
+            background-color: #f3f3f3;
+            border: 0;
+            border-radius: 4px;
+            margin-bottom: 25px;
+            transition: all 250ms ease-in-out;
+            &:hover {
+              //background-color: #ffffff;
+              //box-shadow: 0px 0px 14px 0.3px #0e81ce96;
+            }
+            
+  
+            &:focus {
+              outline: none;
+              box-shadow: 0px 0px 12px 0.8px #3474dbb2;
+            }
+          }
+        }
+      }
+    }
+
+    
+ 
+    .btn {
+       font-size: 15px;
+       padding: 5px 20px;
+       border: 0;
+       background-color: #035c63;
+       color: #fff;
+       border-radius: 3px;
+       cursor: pointer;
+       margin-bottom: -1em;
+       &:hover {
+           background-color: #2386c8;
+
+       }
+       &:focus {
+           outline: none;
+       }
+      }
+//button for registration page
+      .btnr {
+        font-size: 15px;
+        padding: 1px 1px;
+        border: 0;
+        background-color: #035c63;
+        color: #fff;
+        border-radius: 3px;
+        cursor: pointer;
+       
+        margin-top:-50m;
+        &:hover {
+            background-color: #2386c8;
+ 
+        }
+        &:focus {
+            outline: none;
+        }
+       }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .label {
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        color: #fff;
+        margin-top: 2em;
+        
+      }
+      .check-box {
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+    text-align: left;
+    color: #fff
+       
+        
+      }
+
+
+    .footer {
+      margin-top: 2em;
+      margin-bottom: 7em;
+     
+    }
+    .footerr {
+      margin-top: 2em;
+      margin-bottom: 0em;
+     
+    }
+   
+    .errorMessage {
+      color: red;
+      font-size: 0.75em;
+      display: relative;
+    }
+  }
+.red-text{
+    color: red;
+  }
+
+  .base-container{
+    border: white
+  }
+  
+
+  .ant-btn > span{
+    color: white;
+    size: 20px;
+    
+  }
+
+  .block-example {
+    width: 6rem;
+    height: 6rem;
+    margin: 0.5rem;
+    background-color: #eee;
+    display: inline-block;
+}
+.p.outset {border-style: outset;}

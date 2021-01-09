@@ -1,0 +1,76 @@
+.video { 
+  position: relative; 
+  width: 30%; /* for IE 6 */
+}
+
+
+  .textColor{
+     color : rgb(12, 11, 11);
+  }
+
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 100px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+  color: #0f0f0f;
+}
+
+.components-layout-demo-custom-trigger .trigger:hover {
+  color: #0f0f0f;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(245, 241, 241, 0.2);
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: rgb(245, 243, 243);
+  margin-top: 0
+  
+}
+.logo1 {
+  width: 180px;
+    margin-left: -0px;
+
+}
+
+.menu {
+  background-color: #035c63;
+
+}
+
+.menu__search-button {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 1px solid #c8c9ce;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.menu__search-form {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+}
+
+.menu__search-input {
+    outline: none;
+    border: 1px solid #c8c9ce;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 300;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected.customclass {
+  background-color:#009999; /*Overriden property*/
+}
